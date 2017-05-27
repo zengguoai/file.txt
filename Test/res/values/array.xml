@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings">
+        <item>控制WiFi</item>
+        <item>亮度调节</item>
+        <item>最小化窗口</item>
+        <item>关闭悬浮窗</item>
+    </string-array>
+</resources>

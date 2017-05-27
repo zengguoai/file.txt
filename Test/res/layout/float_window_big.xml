@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/big_window_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/shape_cricle_big">
+
+<Button
+        android:id="@+id/big_percent"
+        android:layout_width="100dip"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"/>
+		
+    <Button
+        android:id="@+id/clean"
+        android:layout_width="100dip"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:text="清除内存" />
+
+    <Button
+        android:id="@+id/more"
+        android:layout_width="100dip"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:text="更多设置" />
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dip"
+    android:layout_height="200dip"
+    android:background="#0000CD"
+    android:orientation="vertical" >
+
+	<Button
+        android:id="@+id/wifi"
+        android:layout_width="120dip"
+        android:layout_height="0dip"
+        android:layout_weight="1" 
+        android:text="控制WiFi"/>
+	<Button
+        android:id="@+id/brightness"
+        android:layout_width="120dip"
+        android:layout_height="0dip"
+        android:layout_weight="1" 
+        android:text="调节亮度"/>
+    <Button
+        android:id="@+id/close"
+        android:layout_width="120dip"
+        android:layout_height="0dip"
+        android:layout_weight="1" 
+        android:text="关闭悬浮窗"/>
+    <Button
+        android:id="@+id/back"
+        android:layout_width="120dip"
+        android:layout_height="0dip"
+        android:layout_weight="1" 
+        android:text="最小化窗口"/>
+
+</LinearLayout>
